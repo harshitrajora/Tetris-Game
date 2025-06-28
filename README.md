@@ -34,13 +34,14 @@ A classic **Tetris clone** developed in **C++** using the **Raylib graphics libr
 
 ---
 
-![Game Screen](Gameplay.png)
-![Game Over](assets/Gameover.png)
 
 
 ## 🛠️ Build from Source
 
 > Requirements: C++ Compiler, Raylib installed
+
+![Gameplay](assets/Gameplay.png)
+![Game Over](assets/Gameover.png)
 
 ### 🔧 Steps:
 ```bash
