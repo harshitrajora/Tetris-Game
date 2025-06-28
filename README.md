@@ -44,7 +44,8 @@ A classic **Tetris clone** developed in **C++** using the **Raylib graphics libr
 
 ### 🔧 Steps:
 ```bash
-git clone https://github.com/your-username/tetris-game.git
-cd tetris-game
-g++ main.cpp -o tetris -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
-./tetris
+git clone https://github.com/harshitrajora/Tetris-Game.git
+cd Tetris-Game
+brew install raylib           # Install raylib (if not already installed)
+g++ main.cpp -o Tetris -lraylib -std=c++17 -framework OpenGL -framework Cocoa -framework IOKit -framework CoreAudio
+./Tetris
