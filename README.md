@@ -28,7 +28,7 @@ A classic **Tetris clone** developed in **C++** using the **Raylib graphics libr
 
 ## 📥 Play Now
 
-### 🔗 [Download Latest Release](https://github.com/your-username/tetris-game/releases)
+### 🔗 [Download Latest Release](https://github.com/harshitrajora/Tetris-Game/releases)
 
 > Pre-built executable for Windows/Mac/Linux available in Releases.
 
