@@ -45,9 +45,20 @@ A classic **Tetris clone** developed in **C++** using the **Raylib graphics libr
 
 ### 🔧 Steps:
 ```bash
+# 1. Clone the repository
 git clone https://github.com/harshitrajora/Tetris-Game.git
 cd Tetris-Game
-brew install raylib           # Install raylib (if not already installed)
-g++ src/main.cpp -o Tetris -lraylib -std=c++17 -framework OpenGL -framework Cocoa -framework IOKit -framework CoreAudio
+
+# 2. Install raylib (only needed once)
+brew install raylib
+
+# 3. Compile the game (make sure you're in the project root)
+g++ src/*.cpp -o Tetris -std=c++17 \
+  -I/opt/homebrew/include \
+  -L/opt/homebrew/lib \
+  -lraylib -framework OpenGL -framework Cocoa -framework IOKit -framework CoreAudio
+
+# 4. Run the game
 ./Tetris
+
 
