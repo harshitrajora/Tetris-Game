@@ -34,8 +34,8 @@ A classic **Tetris clone** developed in **C++** using the **Raylib graphics libr
 
 ---
 
-![Start Screen](assets/screenshot1.png)
-![Game Over](assets/screenshot2.png)
+![Game Screen](Gameplay.png)
+![Game Over](assets/Gameover.png)
 
 
 ## 🛠️ Build from Source
